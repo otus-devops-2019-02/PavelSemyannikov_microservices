@@ -1,0 +1,9 @@
+REPOSITORY                         TAG                 IMAGE ID            CREATED             SIZE
+pavelsemyannikov/ubuntu-tmp-file   latest              42536866fa94        6 minutes ago       69.9MB
+ubuntu                             latest              7698f282e524        12 days ago         69.9MB
+hello-world                        latest              fce289e99eb9        4 months ago        1.84kB
+
+*
+Отличие контейнера от образа в том, что контейнер лишь ссылается на образ, но при этом имеет блок присущих только ему настроек и данных.
+Таких как сети, выделяемые ресурсы, точки монтирования, имя и т.п. 
+Т.е. контейнер имеет отдельный слой поверх образа.
