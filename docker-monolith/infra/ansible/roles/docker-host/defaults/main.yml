@@ -1,0 +1,10 @@
+---
+packages:
+  - docker-ce
+  - docker-ce-cli
+  - containerd.io
+  - python-pip
+
+pip_packages:
+  - docker
+  - docker-compose

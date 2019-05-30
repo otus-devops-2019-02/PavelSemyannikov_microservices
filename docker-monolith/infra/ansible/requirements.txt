@@ -1,0 +1,8 @@
+ansible>=2.4
+google-api-python-client
+pycrypto
+apache-libcloud
+requests
+google-auth
+docker
+docker-compose
