@@ -1,0 +1,12 @@
+---
+- name: Deploy docker container reddit from mryoyo/otus-reddit:1.0 to docker-host's
+  hosts: all
+  become: true
+  
+  vars:
+    - image_name: "mryoyo/otus-reddit:1.0"
+    - container_name: "reddit"
+    - ports: "9292:9292"
+
+  roles:
+    - role: docker-host

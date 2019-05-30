@@ -1,0 +1,24 @@
+---
+- name: Add apt key for docker repo
+  apt_key:
+    url: https://download.docker.com/linux/ubuntu/gpg
+    state: present
+  tags: install
+
+- name: Add docker repo
+  apt_repository:
+    repo: deb [arch=amd64] https://download.docker.com/linux/ubuntu xenial stable
+    state: present
+  tags: install
+
+- name: Install packages from defaults/main.yml:packages
+  apt: 
+    name: "{{ packages }}"
+    update_cache: yes
+    state: present
+  tags: install
+
+- name: Install pip packages from defaults/main.yml:pip_packages
+  pip:
+    name: "{{ pip_packages }}"
+  tags: install

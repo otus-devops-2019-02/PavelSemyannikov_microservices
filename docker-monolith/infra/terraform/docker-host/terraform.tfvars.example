@@ -1,0 +1,6 @@
+project = "docker-111111"
+public_key_path = "~/.ssh/dockeradmin.pub"
+instance_name = "docker-host"
+instance_tags = "docker-host"
+disk_image = "docker-host"
+count = "2"
