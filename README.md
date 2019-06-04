@@ -34,3 +34,18 @@ PavelSemyannikov microservices repository
  - cd docker-monolith/infra && packer build --var-file packer/variables.json packer/docker-host.json
  - cd docker-monolith/infra/terraform/docker-host && terraform apply
  - cd docker-monolith/infra/ansible && ansible-playbook playbooks/deploy-reddit-container.yml
+
+
+# Выполнено ДЗ № 14
+
+ - [ ] Основное ДЗ
+
+## В процессе сделано:
+ - Изучены основы создания Dockerfile
+ - Изучены параметры командной строки docker
+
+## PR checklist
+ - [ ] Выставил label с номером домашнего задания
+ - [ ] Выставил label с темой домашнего задания
+ 
+ 
