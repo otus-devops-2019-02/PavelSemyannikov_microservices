@@ -9,3 +9,4 @@ docker-monolith/infra/packer/variables.json
 *.retry
 .gce.json
 gce.ini
+.env
