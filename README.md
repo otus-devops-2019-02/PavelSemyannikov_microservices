@@ -54,3 +54,7 @@ PavelSemyannikov microservices repository
  - Изучены основы сетей в docker
  - Изучены основы docker-compose
  
+ Note1: Немного о docker-compose override https://habr.com/ru/company/otus/blog/337688/
+ 
+ Note2: base-name в docker-compose, по умолчанию, создается на основе имени папки проекта. Переопределить его можно с помощью переменной COMPOSE_PROJECT_NAME, например, задав её в .env файле или указав при запуске ключем -p base_name
+
