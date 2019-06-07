@@ -10,3 +10,4 @@ docker-monolith/infra/packer/variables.json
 .gce.json
 gce.ini
 .env
+dos2unix.sh
