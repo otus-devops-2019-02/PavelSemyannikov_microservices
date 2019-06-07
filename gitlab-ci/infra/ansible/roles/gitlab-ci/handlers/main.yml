@@ -1,0 +1,4 @@
+---
+- name: Run gitlab-ci
+  docker_compose:
+    project_src: "{{ project_folder }}"
