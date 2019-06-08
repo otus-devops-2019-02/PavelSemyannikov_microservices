@@ -58,3 +58,19 @@ PavelSemyannikov microservices repository
  
  Note2: base-name в docker-compose, по умолчанию, создается на основе имени папки проекта. Переопределить его можно с помощью переменной COMPOSE_PROJECT_NAME, например, задав её в .env файле или указав при запуске ключем -p base_name
 
+
+ # Выполнено ДЗ № 16
+
+ - [ ] Основное ДЗ
+ 
+## В процессе сделано:
+ - В папке gitlab-ci/infra сделаны конфиги для terraform и плэйбуки для ansible для быстрого развертывания gitlab-ci
+ 
+     cd gitlab-ci/infra/terraform/gitlab-ci && terraform apply
+ 
+     cd gitlab-ci/infra/ansible && ansible-playbook playbooks/create_gitlab-ci_full.yml
+     
+ - Изучены основы работы с gitlab
+ - Изучены основы построения pipeline
+ 
+ 
