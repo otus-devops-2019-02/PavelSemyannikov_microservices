@@ -1,0 +1,8 @@
+project = "docker-111111"
+ssh_username = "pavel"
+public_key_path = "~/.ssh/appuser.pub"
+instance_name = "gitlab-ci"
+instance_tags = "gitlab-ci"
+disk_image = "ubuntu-1604-lts"
+disk_size = "100"
+machine_type = "n1-standard-1"

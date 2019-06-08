@@ -1,0 +1,20 @@
+---
+- name: Show External IP of instance
+  debug: 
+    msg: "Gitlab-CI host external IP is {{ gitlab_ci_external_ip }}"
+
+- name: Create directories if they don't exist
+  file:
+    path: "{{ project_folder }}"
+    state: directory
+    owner: root
+    group: root
+    mode: 0775
+  tags: install
+
+- name: Install gitlab-ci omnibus
+  template:
+    src: docker-compose.yml.j2
+    dest: "{{ project_folder }}/docker-compose.yml"
+  notify: Run gitlab-ci
+  tags: install

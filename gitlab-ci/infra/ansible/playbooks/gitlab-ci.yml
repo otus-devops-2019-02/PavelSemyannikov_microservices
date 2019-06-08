@@ -1,0 +1,10 @@
+---
+- name: Configure Gitlab-CI
+  hosts: all
+  become: true
+
+  vars:
+    - gitlab_ci_external_ip: "{{ ansible_ssh_host }}"
+
+  roles:
+    - role: gitlab-ci
