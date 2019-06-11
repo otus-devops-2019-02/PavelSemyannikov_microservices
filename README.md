@@ -74,4 +74,12 @@ PavelSemyannikov microservices repository
  - Изучены основы построения pipeline
  
  
-    https://hub.docker.com/u/mryoyo
+ # Выполнено ДЗ № 17
+
+ - [ ] Основное ДЗ
+ 
+## В процессе сделано:
+ - Изучены основы Prometheus 
+
+ Репозиторий на dockerhub https://hub.docker.com/u/mryoyo
+
