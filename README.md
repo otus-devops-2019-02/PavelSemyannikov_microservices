@@ -82,4 +82,16 @@ PavelSemyannikov microservices repository
  - Изучены основы Prometheus 
 
  Репозиторий на dockerhub https://hub.docker.com/u/mryoyo
+ 
+ 
+ # Выполнено ДЗ № 18
 
+ - [ ] Основное ДЗ
+ 
+## В процессе сделано:
+ - Продолжено изучение Prometheus
+ - Изучены основы работы с Grafana
+ - Изучены основы алертинга
+
+ Репозиторий на dockerhub https://hub.docker.com/u/mryoyo
+ 
