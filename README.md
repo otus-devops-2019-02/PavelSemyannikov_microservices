@@ -98,7 +98,6 @@ PavelSemyannikov microservices repository
  # Выполнено ДЗ № 19
 
  - [ ] Основное ДЗ
- - [ ] Задание со 
 
 ## В процессе сделано:
  - Изучены основы работы с ELK и Fluend
