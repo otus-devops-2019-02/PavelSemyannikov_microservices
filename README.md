@@ -95,3 +95,11 @@ PavelSemyannikov microservices repository
 
  Репозиторий на dockerhub https://hub.docker.com/u/mryoyo
  
+ # Выполнено ДЗ № 19
+
+ - [ ] Основное ДЗ
+
+## В процессе сделано:
+ - Изучены основы работы с ELK и Fluend
+ - Изучены основы работы с трассировками
+ 
