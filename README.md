@@ -115,3 +115,13 @@ PavelSemyannikov microservices repository
  - [ ] Выставил label с номером домашнего задания
  - [ ] Выставил label с темой домашнего задания
  
+# Выполнено ДЗ № 21
+
+ - [ ] Основное ДЗ
+
+## В процессе сделано:
+ - Испробована работа с minikube
+ - Создан kubernetes-кластер в GKE и в нем запущен reddit
+
+## Как проверить работоспособность:
+ - Скрин работающего приложения https://raw.githubusercontent.com/otus-devops-2019-02/PavelSemyannikov_microservices/kubernetes-2/kubernetes/reddit-in-gke-hw-kubernetes-2.png
