@@ -125,3 +125,16 @@ PavelSemyannikov microservices repository
 
 ## Как проверить работоспособность:
  - Скрин работающего приложения https://raw.githubusercontent.com/otus-devops-2019-02/PavelSemyannikov_microservices/kubernetes-2/kubernetes/reddit-in-gke-hw-kubernetes-2.png
+ 
+ # Выполнено ДЗ № 22
+
+ - [ ] Основное ДЗ
+ - [ ] Задание со *
+
+## В процессе сделано:
+ - Изучены основы работы с GKE
+ - Изучены основы работы с сервисами, политиками, секретами и хранилищами в kubernetes
+ - Для задания со * создан манифест ui-ingress-secret.yml в котором описан сертификат и ключ для инресса
+
+## Как проверить работоспособность:
+ - Перейти по ссылке https://34.98.111.253/
