@@ -8,6 +8,9 @@ image:
   name: ui
   tag: latest
 
+ingress:
+  class: nginx
+
 postHost:
 postPort:
 commentHost:
