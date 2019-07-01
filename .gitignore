@@ -13,3 +13,4 @@ gce.ini
 dos2unix.sh
 _trash/
 docker/docker-monolith/infra/packer/variables.json
+kubernetes/Gitlab_ci

@@ -1,0 +1,16 @@
+---
+comment:
+  image:
+    repository: mryoyo
+    name: comment
+    tag: latest
+  service:
+    externalPort: 9292
+
+post:
+  image:
+    repository: mryoyo
+    name: post
+    tag: latest
+  service:
+    externalPort: 5000
