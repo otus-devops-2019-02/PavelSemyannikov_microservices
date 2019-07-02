@@ -147,3 +147,10 @@ PavelSemyannikov microservices repository
  - Изучены и опробованы на практике основы Helm
  - Изучена работа с Kubernetes, helm и gitlab. Построение pipilene и выкатка на различные окружения.
 
+# Выполнено ДЗ № 24
+
+ - [ ] Основное ДЗ
+ 
+## В процессе сделано:
+ - Изучена работа с Prometheus в k8s
+ - Изучена работа с EFK в k8s
